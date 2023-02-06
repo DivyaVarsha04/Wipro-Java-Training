@@ -1,0 +1,12 @@
+//Java Program To Print Numbers from One to Hundred
+public class PrintNumbersOneToHundred {
+    public static void main(String args[]) {
+    System.out.println("The Numbers from One to Hundred are:");
+    for (int i=1; i<=100; i++) 
+    {
+    
+      System.out.println(i + ",");
+    }
+    }
+    
+    
