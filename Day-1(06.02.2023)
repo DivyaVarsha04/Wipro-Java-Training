@@ -1,0 +1,17 @@
+// Java Program to Print Odd Numbers One To Hundred
+
+public class PrintOddNumbersOneToHundred  
+{  
+public static void main(String args[])   
+{  
+int number=100;  
+System.out.print("The List of odd numbers from 1 to 100 "+number+": ");  
+for (int i=1; i<=number; i++)   
+{  
+if (i%2!=0)   
+{  
+System.out.print(i + " ");  
+}  
+}  
+}  
+}
