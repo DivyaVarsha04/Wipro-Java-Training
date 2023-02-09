@@ -1,0 +1,6 @@
+int sumOfDigits=0;
+        while (input1!=0){
+            sumOfDigits = sumOfDigits+input1%10;
+            input1=input1/10;
+        }
+        return sumOfDigits;
