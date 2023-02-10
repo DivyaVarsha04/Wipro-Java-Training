@@ -1,0 +1,22 @@
+int digit,len=0,i;
+		int freq[]=new int[10];
+        boolean flag=true;
+        while(input1>0)
+        {
+            digit=input1%10;
+            input1/=10;
+            freq[digit]++;
+            len++;
+        }
+        if(len%2==0){
+            for(i=0;i<10;i++)
+            {
+                if(freq[i]%2!=0)
+                {
+                    flag=false;
+                }
+            }
+        }
+        if(flag) return 2;
+        return 1;
+	}
