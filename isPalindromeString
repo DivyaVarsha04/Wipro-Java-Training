@@ -1,0 +1,12 @@
+		String input=input1.toUpperCase();
+        int left=0,right=input.length()-1;
+        while(left<right)
+        {
+            if(input.charAt(left)!=input.charAt(right)) return 1;
+            left++;
+            right--;
+
+        }
+        return 2;
+	}
+}
