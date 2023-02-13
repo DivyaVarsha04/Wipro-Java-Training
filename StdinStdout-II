@@ -1,0 +1,13 @@
+public static void main(String[] args) {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    Scanner scan = new Scanner(System.in);
+
+    int i = scan.nextInt();
+    Double d = scan.nextDouble();
+    scan.nextLine();
+    String s = scan.nextLine();
+    // Write your code here.
+
+    System.out.println("String: " + s);
+    System.out.println("Double: " + d);
+  
